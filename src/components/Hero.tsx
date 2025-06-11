@@ -20,6 +20,11 @@ const Hero = () => {
                 src="/lovable-uploads/e70bf4f6-2905-47e0-8d40-5c03f4cb5498.png"
                 alt="Surya Teja Darapureddy"
                 className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-background shadow-2xl transition-all duration-500 group-hover:scale-105"
+                style={{ 
+                  objectPosition: 'center top',
+                  transform: 'scale(1.2)',
+                  transformOrigin: 'center'
+                }}
               />
             </div>
           </div>
