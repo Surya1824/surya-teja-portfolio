@@ -33,7 +33,7 @@ const Navigation = () => {
             Surya Teja Darapureddy
           </div>
           <div className="hidden md:flex space-x-8">
-            {["About", "Skills", "Projects", "Experience", "Contact"].map(
+            {["About", "Skills", "Projects", "Experience"].map(
               (item) => (
                 <button
                   key={item}
