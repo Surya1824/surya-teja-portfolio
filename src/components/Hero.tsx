@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-primary/50 rounded-full blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
+                src="/lovable-uploads/e70bf4f6-2905-47e0-8d40-5c03f4cb5498.png"
                 alt="Surya Teja Darapureddy"
                 className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-background shadow-2xl transition-all duration-500 group-hover:scale-105"
               />
