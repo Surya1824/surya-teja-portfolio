@@ -31,10 +31,10 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-3 md:py-4">
-          {/* Logo/Name - Responsive text size */}
-          <div className="text-lg md:text-xl font-bold text-foreground transition-colors duration-300 truncate">
-            Surya Teja Darapureddy
+        <div className="flex justify-between items-center py-2 md:py-4 min-h-[60px] md:min-h-[70px]">
+          {/* Logo/Name - Better responsive sizing */}
+          <div className="text-base sm:text-lg md:text-xl font-bold text-foreground transition-colors duration-300 flex-shrink-0 max-w-[140px] sm:max-w-[180px] md:max-w-none">
+            <span className="truncate block">Surya Teja Darapureddy</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -64,19 +64,19 @@ const Navigation = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center space-x-2">
+          {/* Mobile Menu Button and Theme Toggle - Improved spacing */}
+          <div className="md:hidden flex items-center space-x-2 flex-shrink-0">
             <ThemeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 text-foreground hover:bg-accent rounded-md transition-colors"
+              className="p-2 text-foreground hover:bg-accent rounded-md transition-colors min-w-[40px] h-[40px] flex items-center justify-center"
             >
-              {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+              {isMobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu - Improved styling */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">

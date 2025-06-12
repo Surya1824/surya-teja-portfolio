@@ -9,11 +9,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-muted/20 px-4 transition-all duration-500 pt-20 md:pt-0">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-muted/20 px-4 transition-all duration-500 pt-24 md:pt-0 pb-20 md:pb-0">
       <div className="max-w-6xl mx-auto text-center">
         <div className="animate-fade-in">
           {/* Profile Picture */}
-          <div className="mb-6 md:mb-8 flex justify-center">
+          <div className="mb-6 md:mb-8 flex justify-center mt-4 md:mt-0">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-primary/50 rounded-full blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
               <img
@@ -62,15 +62,15 @@ const Hero = () => {
             </Button>
           </div>
           
-          {/* Social Links */}
-          <div className="flex justify-center space-x-8 mb-12 md:mb-16">
+          {/* Social Links - Increased spacing from buttons */}
+          <div className="flex justify-center space-x-12 mb-16 md:mb-20">
             <a
               href="https://github.com/Surya1824"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 hover:rotate-12"
             >
-              <Github size={24} className="md:w-7 md:h-7" />
+              <Github size={28} className="md:w-8 md:h-8" />
             </a>
             <a
               href="https://www.linkedin.com/in/surya-teja"
@@ -78,18 +78,19 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-125 hover:rotate-12"
             >
-              <Linkedin size={24} className="md:w-7 md:h-7" />
+              <Linkedin size={28} className="md:w-8 md:h-8" />
             </a>
           </div>
         </div>
         
-        {/* Scroll Down Arrow - Positioned to avoid overlap */}
-        <div className="absolute bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ArrowDown
-            size={28}
-            className="md:w-8 md:h-8 text-muted-foreground cursor-pointer hover:text-primary transition-all duration-300 hover:scale-110"
-            onClick={() => scrollToSection("about")}
-          />
+        {/* Scroll Down Arrow - Better positioned with more space from social icons */}
+        <div className="flex justify-center mt-8 md:mt-12">
+          <div className="animate-bounce cursor-pointer" onClick={() => scrollToSection("about")}>
+            <ArrowDown
+              size={32}
+              className="md:w-10 md:h-10 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
+            />
+          </div>
         </div>
       </div>
     </section>
