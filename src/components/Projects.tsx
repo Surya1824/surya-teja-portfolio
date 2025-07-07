@@ -2,13 +2,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
+import ecommerceImage from "@/assets/ecommerce-microservices.jpg";
+import insuranceImage from "@/assets/insurance-platform.jpg";
+import bankingImage from "@/assets/banking-platform.jpg";
 
 const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Microservices System",
       description: "A comprehensive microservices architecture featuring User, Product, Order, Inventory, and Payment services with advanced features like service discovery and API Gateway.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
+      image: ecommerceImage,
       tech: ["Spring Boot", "PostgreSQL", "RabbitMQ", "Docker", "Eureka", "Swagger"],
       features: [
         "JWT-based role authentication",
@@ -24,7 +27,7 @@ const Projects = () => {
     {
       title: "Insurance Application",
       description: "Enterprise-grade insurance platform built at TCS, handling complex business logic with secure RESTful APIs and robust proxy services.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+      image: insuranceImage,
       tech: ["Spring Boot", "RESTEasy", "CA API Gateway", "JUnit", "MySQL"],
       features: [
         "RESTful API development",
@@ -40,7 +43,7 @@ const Projects = () => {
     {
       title: "Banking Services Platform",
       description: "Cloud migration and microservices redesign for banking operations, including performance optimization and CI/CD implementation.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      image: bankingImage,
       tech: ["Spring Boot", "Docker", "OpenShift", "Jenkins", "VPE Testing"],
       features: [
         "PCF to OpenShift migration",
