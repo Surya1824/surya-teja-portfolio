@@ -25,9 +25,9 @@ const About = () => {
                   RESTful APIs that serve millions of users.
                 </p>
                 <p className="text-muted-foreground leading-relaxed transition-colors duration-300">
-                  I'm passionate about cloud technologies, DevOps practices, and leveraging AI to 
-                  accelerate development workflows. My goal is to create software solutions that 
-                  make a real impact on business operations and user experiences.
+                  I'm deeply passionate about cloud technologies, DevOps practices, and exploring 
+                  how AI can streamline development workflows. My focus is on delivering solutions 
+                  that improve both business efficiency and user experience.
                 </p>
               </CardContent>
             </Card>
