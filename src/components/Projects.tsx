@@ -2,9 +2,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
-import ecommerceImage from "@/assets/ecommerce-microservices.jpg";
-import insuranceImage from "@/assets/insurance-platform.jpg";
-import bankingImage from "@/assets/banking-platform.jpg";
+const ecommerceImage = "/lovable-uploads/e42980fc-3b5f-4bfe-a534-d7ccaa02326e.png";
+const insuranceImage = "/lovable-uploads/d9fad66d-48b9-43b2-8d62-371d45ad1c3c.png";
+const bankingImage = "/lovable-uploads/785048d6-4a35-4c65-8416-f6d7c7ef1de3.png";
 
 const Projects = () => {
   const projects = [
