@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       period: "2023 – Present",
-      role: "Java Backend Developer",
+      role: "Java Developer",
       company: "Tata Consultancy Services",
       domain: "Insurance",
       location: "Hyderabad, India",
@@ -19,7 +19,7 @@ const Experience = () => {
     },
     {
       period: "2022 – 2023",
-      role: "Software Developer",
+      role: "Java Developer",
       company: "Tata Consultancy Services",
       domain: "Banking & Financial Services",
       location: "Hyderabad, India",
@@ -65,7 +65,7 @@ const Experience = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            3.3 years of enterprise software development experience across 
+            3+ years of enterprise software development experience across 
             insurance and banking domains.
           </p>
         </div>

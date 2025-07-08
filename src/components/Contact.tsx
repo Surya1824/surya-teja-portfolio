@@ -65,7 +65,7 @@ const Contact = () => {
                     className="flex-1"
                   >
                     <a
-                      href="https://www.linkedin.com/in/surya-teja"
+                      href="https://www.linkedin.com/in/surya-teja-/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"

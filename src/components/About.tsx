@@ -19,7 +19,7 @@ const About = () => {
                   Backend Developer at TCS
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6 transition-colors duration-300">
-                  With 3.3 years of experience in enterprise software development, I specialize in 
+                  With 3+ years of experience in enterprise software development, I specialize in 
                   building robust, scalable microservices using Java and Spring Boot. Currently working 
                   in the insurance domain at Tata Consultancy Services, where I design and maintain 
                   RESTful APIs that serve millions of users.
